@@ -355,3 +355,83 @@ body{
     font-family: Mulish;
     font-weight: 800;
 }
+.hero{
+    color: #FF5400;
+}
+
+
+@media screen and (max-width: 600px){
+    .rectangalsec{
+        display: flex;
+        flex-direction: column;
+    }
+   .popularimg{
+    margin-top: 20px;
+    margin-left: 0px;
+    }
+    body{
+        margin: 0px auto 0px auto;
+    }
+    .row1{
+        flex-direction: column;
+    }
+    .row2{
+        flex-direction: column;
+    }
+    .chooseyourdesimg3{
+        background-repeat: none;
+    }
+    .row3{
+        display: flex;
+        flex-direction: column;
+    }
+    .whyrow1{
+        display: flex;
+        flex-direction: column;
+    }
+    .chooseyourdes{
+        text-align: center;
+    }
+    #items2{
+        width: 420px;
+    }
+    .container{
+        width: 400px;
+    }
+    .perfectplace{
+        display: flex;
+        flex-direction: column;
+    }
+    .newsletter{
+        display: flex;
+        flex-direction: column;
+    }
+    .imageto{
+        width: 480px;
+    }
+    .footersection{
+        margin: 10px 0px 0px 0px;
+    }
+    .inputcontainer{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        height: 150px;
+    }
+    .inputcontainer *{
+        margin-top: 10px;
+    }
+    .inputimg{
+        margin-top: 0px;
+    }
+    .par{
+        text-align: center;
+    }
+    .inputforthat{
+        margin: 0px 0px 0px 15px;
+        padding: 0px;
+    }
+    .input-where-u-go{
+        margin-left: 30px;
+    }
+}   
