@@ -250,10 +250,108 @@ body{
     display: flex;
     align-items: center;
 }
+.dealsanddiscon{
+    text-align: center;
+}
 .dealsanddisconitem{
     background-image: url(../Images/Group\ 39.png);
     height: 450px;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+}
+.videosec{
+    width: 500px;
+    height: 350px;
+}
+.perfectplace{
+    display: flex;
+    flex: 1;
+    margin-top: 30px;
+}
+#sigle{
+    width: 200px;
+}
+#singlebutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputse{
+    background: rgba(19, 19, 24, 0.05);
+    border-radius: 20px;
+    border: 10px;
+    outline: none;
+    padding: 10px;
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+}
+.newsdes{
+    border-width: 20px;
+    border-color: black;
+    text-align: center;
+    border-radius: 20px;
+    background: rgba(251, 181, 99, 0.2);
+    padding: 30px;
+}
+.newsletter{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+#lastbutton{
+    width: 100%;
+    margin-top: 20px;
+}
+.footersection{
+    display: flex;
+    justify-content: center;
+    background: rgba(19, 19, 24, 0.05);
+    height: 500px;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.page-name{
+    display: flex;
+    justify-content: center;
+    
+}
+.section{
+    width: 70%;
+    text-align: center;
+}
+.lastp{
+    margin-top: 40px;
+}
+.big-names1{
+    font-size: 40px;
+    font-family: Mulish;
+    font-weight: 800;
+    color: white;
+}
+.big-names{
+    font-size: 40px;
+    font-family: Mulish;
+    font-weight: 800;
+    color: black;
+}
+.par{
+    color: white;
+}
+.par1{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-family: Mulish;
+    font-weight: 400;
+}
+.bonus{
+    color: white;
+    font-size: 28px;
+    font-family: Mulish;
+    font-weight: 800;
 }
